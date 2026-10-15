@@ -81,7 +81,7 @@ Ranked. Use the highest one the change permits.
 | --- | --- | --- |
 | 1 | A screenshot or recording of the real screen | the change touches a UI |
 | 2 | Captured command output, saved to a file | the change touches a CLI, a build, a test, a script |
-| 3 | A number produced by the same command twice | the change touches performance, accuracy, cost, or size |
+| 3 | A number produced by the same command before and after | the change touches performance, accuracy, cost, or size |
 | 4 | A diff of two saved logs | the change touches a service or a background job |
 | 5 | A schema dump or a row count, before and after | the change touches a database |
 | 6 | A statement that no observable exists | only when ranks 1 to 5 are truly impossible |
